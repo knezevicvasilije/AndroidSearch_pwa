@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="manifest" href="./manifest.json">
+    <meta name='theme-color' content='#fff'>
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <title>Web Search</title>
+    <link rel="stylesheet" href="style.css
+    ">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="header">
+                <div class="navLeft"></div>
+                <nav>
+                    <ul class="navList">
+                        <li><a href="www.gmail.com">Gmail</a></li>
+                        <li><a href="https://www.google.rs/imghp?hl=en&ogbl">Images</a></li>
+                        <li><a href="#"><i class="fas fa-braille"></i> </a></li>
+                        <li><a href="#"><i class="fas fa-circle circle"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="main">
+                <div class="mainContent">
+                    <div class="logo logoTest">Web Search logo</div>
+                    <div class="inputIcons">
+                    <form action="https://www.google.com/search" id="form-id" class="formSearch">
+                        <input type="text" class="searchInput" name="q">
+                        <i class=" searchGl fas fa-search"></i>
+                        <i class="microphone fas fa-microphone-alt"></i>
+                    </form>
+                </div>
+                
+                    <div class="buttons">
+                        <button class="btn" onclick="document.getElementById('form-id').submit()">Google Search</button>
+                        <a class="btnLink"href="https://www.google.com/doodles"><button class="btn"> I'm Feeling Lucky</button></a>
+                    </div>
+                    <div class="buttons">
+                        <p>Google offered in: <a href="#">српски</a> <a href="#">srpski</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footerHalf">
+                    <p>Serbia</p>
+            </div>
+            <div class="footerHalf">
+                <div class="footerMenu">
+                    <div class="footerSide">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">How Search Works</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerSide right">
+                        <ul>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

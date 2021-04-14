@@ -1,0 +1,192 @@
+*{
+    text-decoration: none !important;
+ }
+ .wrapper{
+     width: 100%;
+     margin: 0 auto;
+ }
+ .content{
+     /* width: 96%; */
+ position: relative;
+ }
+ .header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .navLeft{
+     width: 80%;
+ }
+ nav{
+     width: 19%;
+ }
+ .circle{
+     font-size: 1.7rem;
+ }
+ .navList{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style-type: none;
+ }
+ .navList a{
+     text-decoration: none;
+     color: rgba(31, 31, 31, 0.87);
+ }
+ .navList a:hover{
+     border-bottom: 1px solid rgba(0,0,0,0.87);
+ }
+ .main{
+     width: 43%;
+     margin: 0 auto;
+ }
+ .mainContent{
+     width: 100%;
+     margin: 0 auto;
+ }
+ .inputIcons{
+     
+     position: relative;
+ }
+ .searchGl{
+     position: absolute;
+     top: 12px;
+     left: 17px;
+     color: gray;
+     margin-right:3rem ;
+ }
+ .microphone{
+     color: gray;
+     position: absolute;
+     top: 10px;
+     right: 1px;
+     font-size: 1.2rem;
+     /* dad */
+ }
+ .logo{/* 
+     background: url('./images/google-logo.png');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat; */
+     width: 21rem;
+     margin: 3rem auto 0 auto;
+     /* height: 10rem; */
+     height: 7rem;
+     
+ }
+ .logoTest{
+     font-size: 3rem;
+ }
+ .searchInput{
+     width: 92%;
+     padding: 0.7rem;
+     border-radius: 5rem;
+     outline: none;
+     padding-left: 10px;
+     border: 1px solid rgba(165, 165, 165, 0.685);
+ }
+ .formSearch input[type="text"] {
+     padding-left: 50px;
+ }
+ .searchInput:hover{
+     border: none;
+     outline: none;
+     box-shadow: 1px 1px 3px 1px rgba(131, 131, 131, 0.41);
+ 
+ }
+ .buttons{
+     width: 100%;
+     margin: 2rem auto;   
+     text-align: center;
+ }
+ .btn{
+     padding: 0.6rem;
+     background-color: #f8f9fa;
+     border: 1px solid #f8f9fa;
+     border-radius: 4px;
+     cursor: pointer;
+     font-size: 0.9rem;
+ margin-left: 0.4rem;
+ outline: none;
+ }
+ .btnLink{
+     text-transform: capitalize ;
+     color: rgb(131, 127, 127) ;
+     text-decoration: none ;
+     border-bottom: none;
+ }
+ .btn:hover{
+     border: 1px solid #dadada;
+ }
+ 
+ .buttons p{
+     font-size: 0.9rem;
+ }
+ .buttons a{
+     text-transform: lowercase;
+     text-decoration: none;
+     color: blue;
+ }
+ .buttons a:hover{
+     border-bottom: 1px solid blue;
+ }
+ footer{
+   position: absolute;
+   width: 99%;
+   bottom: 0;
+ }
+ .footerHalf{
+     padding: 0.1rem 0.1rem;
+     background-color: #f8f9fa;
+     color: rgba(0,0,0,.54);
+     border-bottom: 1px solid #dadce0;
+ }
+ .footerHalf p{
+     margin-left: 2.4rem;
+ }
+ .footerMenu{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .footerMenu ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style-type: none;
+ }
+ .footerMenu a{
+ text-decoration: none;
+ color: rgba(0,0,0,.64);
+ }
+ .footerSide{
+     width: 26%;
+ }
+ .right{
+     width: 17%;
+     margin-right: 2rem;
+ }
+ 
+ 
+ @media screen and (max-width: 768px) {
+     nav{
+         width: 100%;
+     }
+     .header{
+         width: 100%;
+     }
+     .circle{
+         font-size: 1.1rem;
+     }
+     .main{
+         width: 80%;
+         margin: 0 auto;
+     }
+     .logo{
+         width: 15rem;
+     }
+     footer{
+         display: none;
+     }
+ }
