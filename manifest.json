@@ -1,0 +1,16 @@
+{
+    "name":"Android Search",
+    "short_name":"Android PWA",
+    "start_url":".",
+    "theme_color":"#fff",
+    "background_color":"#fff",
+    "display":"standalone",
+    "icons":[
+    {
+        "src":"images/icon.png",
+        "sizes":"512x512",
+        "type":"image/png",
+        "purpose":"maskable any"
+    }
+    ]
+}
