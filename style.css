@@ -64,15 +64,14 @@
      font-size: 1.2rem;
      /* dad */
  }
- .logo{/* 
-     background: url('./images/google-logo.png');
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat; */
-     width: 21rem;
-     margin: 3rem auto 0 auto;
-     /* height: 10rem; */
-     height: 7rem;
+ .logo{
+     background: url('./images/AndroidSearch/AndroidSearch1.png');
+      background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 23rem;
+     margin: 1.5rem auto;
+     height: 9rem;
      
  }
  .logoTest{
@@ -161,7 +160,7 @@
  color: rgba(0,0,0,.64);
  }
  .footerSide{
-     width: 26%;
+     width: 32%;
  }
  .right{
      width: 17%;

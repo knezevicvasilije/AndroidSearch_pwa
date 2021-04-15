@@ -7,7 +7,7 @@
     "display":"standalone",
     "icons":[
     {
-        "src":"images/icon.png",
+        "src":"images/android-search-1.png",
         "sizes":"512x512",
         "type":"image/png",
         "purpose":"maskable any"
